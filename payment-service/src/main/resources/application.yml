@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: payment-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/insurance
+    username: postgres
+    password: postgres

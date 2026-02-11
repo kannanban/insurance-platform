@@ -1,0 +1,14 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.insurance</groupId>
+  <artifactId>insurance-platform</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>common-lib</module>
+    <module>policy-service</module>
+    <module>billing-service</module>
+    <module>payment-service</module>
+  </modules>
+</project>
