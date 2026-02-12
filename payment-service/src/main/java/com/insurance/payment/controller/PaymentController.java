@@ -13,16 +13,16 @@ public class PaymentController {
 
     @PostMapping("/autopay")
     public String autoPay() {
-        return "AutoPay processed";
+        return "AutoPay process completed";
     }
 
     @PostMapping("/lockbox")
     public String lockboxPayment() {
-        return "Lockbox payment processed";
+        return "Lockbox payment process completed";
     }
 
     @PostMapping("/refund")
     public String refundPayment() {
-        return "Refund processed";
+        return "Refund process completed";
     }
 }
